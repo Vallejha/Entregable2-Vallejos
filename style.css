@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(206, 222, 222);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#tarjeta_ventas
+{
+display: flex;
+width: 300px;
+border-radius: 5px;
+padding: 20px;
+text-align: center;
+margin-bottom: 20px;
+ img{
+    max-width: 90%;
+    border-radius: 5px;
+    margin: 20px;
+ }
+ p{
+    color: rgb(77, 71, 77);
+ }
+}
+
+#inventario
+{
+display: flex;
+width: 300px;
+border-radius: 5px;
+padding: 20px;
+text-align: center;
+margin-bottom: 20px;
+ img{
+    max-width: 90%;
+    border-radius: 5px;
+    margin: 20px;
+ }
+ p{
+    color: rgb(77, 71, 77);
+ }
+}
+
+#comprador{
+    background-color: beige;   
+  ul li
+       {
+         margin: 15px;
+         list-style: none;
+         color: #5b65cf;
+         font-family: Arial, Helvetica, sans-serif;
+         font-weight: bold;
+       }
+
+}
+
